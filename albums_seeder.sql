@@ -1,4 +1,5 @@
 USE codeup_test_db;
+TRUNCATE albums;
 CREATE DATABASE IF NOT EXISTS codeup_test_db;
 
 INSERT into albums (artist, name, release_date, sales, genre)
